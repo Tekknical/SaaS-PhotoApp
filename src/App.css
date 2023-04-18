@@ -5,10 +5,9 @@
 }
 
 body {
-
-  flex-grow: 1;
-  align-items: center;
-  justify-content: center;
+  margin: 0 auto;
+  align-items: right;
+  justify-content: right;
   display: flex;
   background-color: hsl(200, 100%, 86%);
 }
