@@ -5,10 +5,7 @@
 }
 
 body {
-  margin: 10 auto;
-  align-items: center;
-  justify-content: space-evenly;
-  display: flex;
+  margin: 0 auto;
   background-color: hsl(200, 100%, 86%);
 }
 
@@ -20,9 +17,9 @@ body {
     "image sidebar"
     "slider sidebar";
   height: 100vh;
-  max-height: fit-content;
+  max-height: 1200px;
   width: 100vw;
-  max-width: fit-content;
+  max-width: 800px;
   background-color: hsl(200, 100%, 86%);
   border-left: 5px solid hsl(200, 100%, 56%);
   border-top: 5px solid hsl(200, 100%, 56%);
