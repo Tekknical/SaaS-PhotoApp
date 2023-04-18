@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 0 auto;
+  margin: 0 0;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
   font-size: medium;
   min-height: 100vh;
@@ -59,7 +59,6 @@ nav ul {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-evenly;
-  list-style: circle;
   background-color: hsl(200, 100%, 86%);
   margin: 1em;
   padding: 10;
@@ -72,7 +71,6 @@ nav li {
   font-size: large;
   align-items: center;
   justify-content: space-evenly;
-  list-style-type: circle;
   margin-right: 10px;
   width: 100vw;
 }
