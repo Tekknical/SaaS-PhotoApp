@@ -58,7 +58,7 @@ nav ul {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-evenly;
-  list-style: none;
+  list-style: circle;
   background-color: hsl(200, 100%, 86%);
   margin: 1em;
   padding: 10;
@@ -71,7 +71,7 @@ nav li {
   font-size: large;
   align-items: center;
   justify-content: space-evenly;
-  list-style-type: disc;
+  list-style-type: circle;
   margin-right: 10px;
   width: 100vw;
 }
