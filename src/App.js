@@ -171,8 +171,8 @@ function App() {
         </ul>
       </nav>
       <Routes>
-        <Route exact path="/" element={App} />
         <Route path="/home" element={<Home />} />
+        <Route exact path="/" element={App} />
         <Route path="/help" element={<Help />} />
       </Routes>
 
