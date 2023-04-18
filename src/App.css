@@ -5,9 +5,9 @@
 }
 
 body {
-  margin: 0 auto;
-  align-items: right;
-  justify-content: right;
+  margin: normal auto;
+  align-items: center;
+  justify-content: space-evenly;
   display: flex;
   background-color: hsl(200, 100%, 86%);
 }
