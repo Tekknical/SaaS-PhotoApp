@@ -16,6 +16,7 @@ body {
 
 .container {
   display: grid;
+  flex-grow: 1;
   grid-template-columns: 2fr 200px;
   grid-template-rows: 2fr 200px;
   grid-template-areas:
@@ -56,7 +57,7 @@ nav ul {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-evenly;
-  list-style: none;
+  list-style-position: inside;
   background-color: hsl(200, 100%, 86%);
   margin: 10;
   padding: 10;
