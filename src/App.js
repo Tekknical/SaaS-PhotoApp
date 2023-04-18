@@ -163,10 +163,10 @@ function App() {
             <Link to="/">App</Link>
           </li>
           <li>
-            <Link to="/home">Home</Link>
+            <Link to="/help">Help</Link>
           </li>
           <li>
-            <Link to="/help">Help</Link>
+            <Link to="/home">Home</Link>
           </li>
         </ul>
       </nav>
