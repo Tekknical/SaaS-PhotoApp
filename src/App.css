@@ -10,8 +10,7 @@ body {
 }
 
 .container {
-  display: flex;
-  height: 100%;
+  display: grid;
   grid-template-columns: 2fr 200px;
   grid-template-rows: 2fr 200px;
   grid-template-areas:
