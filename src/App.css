@@ -6,17 +6,15 @@
 
 body {
   margin: 0 auto;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-  font-size: medium;
-  height: 100%;
-  width: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
   display: flex;
   background-color: hsl(200, 100%, 86%);
 }
 
 .container {
   display: grid;
-  flex-grow: 1;
   grid-template-columns: 2fr 200px;
   grid-template-rows: 2fr 200px;
   grid-template-areas:
@@ -57,7 +55,7 @@ nav ul {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-evenly;
-  list-style-position: inside;
+  list-style: none;
   background-color: hsl(200, 100%, 86%);
   margin: 10;
   padding: 10;
