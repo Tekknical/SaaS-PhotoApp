@@ -47,6 +47,8 @@ nav {
 nav ul {
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
   list-style: none;
   background-color: hsl(200, 100%, 86%);
   margin: 0;
