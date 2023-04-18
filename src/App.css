@@ -39,6 +39,7 @@ body {
 
 nav {
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
   background-color: hsl(200, 100%, 86%);
   padding: 10px;
