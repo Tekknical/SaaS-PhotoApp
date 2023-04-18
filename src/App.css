@@ -6,6 +6,8 @@
 
 body {
   margin: 0 auto;
+  min-height: 100vh;
+  min-width: 100vw;
   background-color: hsl(200, 100%, 86%);
 }
 
