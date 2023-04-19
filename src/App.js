@@ -157,7 +157,19 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">App</Link>
+          </li>
+          <li>
+            <Link to="/help">Help</Link>
+          </li>
+          <li>
+            <Link to="/home">Home</Link>
+          </li>
+        </ul>
+      </nav>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route exact path="/" element={App} />
