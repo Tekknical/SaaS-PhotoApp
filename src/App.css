@@ -24,8 +24,9 @@ body {
     "slider sidebar";
   height: 100vh;
   max-height: 900px;
-  width: 100%;
+  width: 100vh;
   max-width: 1600px;
+  margin-left: 2em;
   background-color: hsl(200, 100%, 86%);
   border-left: 5px solid hsl(200, 100%, 56%);
   border-top: 5px solid hsl(200, 100%, 56%);
