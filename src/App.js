@@ -5,7 +5,6 @@ import SidebarItem from "./SidebarItem";
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Help from "./pages/Help";
-import Header from "./components/Header";
 
 const DEFAULT_OPTIONS = [
   {
