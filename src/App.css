@@ -16,7 +16,9 @@ body {
 }
 
 .container {
-  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-template-columns: 2fr 200px;
   grid-template-rows: 2fr 200px;
   grid-template-areas:
