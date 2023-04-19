@@ -3,8 +3,9 @@ import "./App.css";
 import Slider from "./Slider";
 import SidebarItem from "./SidebarItem";
 import { Routes, Route, Link } from "react-router-dom";
-import { Home } from "./pages/Home";
-import { Help } from "./pages/Help";
+import Home from "./pages/Home";
+import Help from "./pages/Help";
+import Header from "./components/Header";
 
 const DEFAULT_OPTIONS = [
   {
@@ -157,25 +158,12 @@ function App() {
 
   return (
     <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">App</Link>
-          </li>
-          <li>
-            <Link to="/help">Help</Link>
-          </li>
-          <li>
-            <Link to="/home">Home</Link>
-          </li>
-        </ul>
-      </nav>
+      <Header />
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route exact path="/" element={App} />
         <Route path="/help" element={<Help />} />
       </Routes>
-
       <div className="container">
         <div className="main-image" style={getImageStyle()} />
         <div className="sidebar">
