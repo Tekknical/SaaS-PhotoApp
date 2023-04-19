@@ -17,8 +17,8 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 2fr 200px;
-  grid-template-rows: auto;
+  grid-template-columns: auto 200px;
+  grid-template-rows: auto auto;
   grid-template-areas:
     "image sidebar"
     "slider sidebar";
