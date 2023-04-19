@@ -3,8 +3,8 @@ import "./App.css";
 import Slider from "./Slider";
 import SidebarItem from "./SidebarItem";
 import { Routes, Route, Link } from "react-router-dom";
-import Home from "./pages/Home";
-import Help from "./pages/Help";
+import { Home } from "./pages/Home";
+import { Help } from "./pages/Help";
 
 const DEFAULT_OPTIONS = [
   {
