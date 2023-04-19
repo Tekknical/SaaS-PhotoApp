@@ -17,10 +17,8 @@ body {
 
 .container {
   display: grid;
-  justify-content: center;
-  align-items: center;
   grid-template-columns: 2fr 200px;
-  grid-template-rows: 2fr 200px;
+  grid-template-rows: auto;
   grid-template-areas:
     "image sidebar"
     "slider sidebar";
