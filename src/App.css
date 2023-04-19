@@ -10,6 +10,7 @@ body {
   font-size: medium;
   min-height: 100vh;
   min-width: 100vw;
+  text-align: center;
   display: flex;
   background-color: hsl(200, 100%, 86%);
 }
